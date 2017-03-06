@@ -1,6 +1,6 @@
-# TITRE DU PROJET
+# Devenir français
 
-[Lien vers le projet](https://edj-projets-web.github.io/boilerplate/)
+[Lien vers le projet](https://edj-projets-web.github.io/devenir-francais/)
 
 ## TODO
 
