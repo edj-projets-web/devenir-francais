@@ -1,11 +1,8 @@
-.presentation-text
-{
+.presentation-text {
 	border: 2px solid black;
-
 }
 
-.messenger
-{
+.messenger {
 	border: 2px solid blue;
 	background-color: blue;
 	color: white;

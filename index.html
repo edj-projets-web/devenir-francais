@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Devenir Français</title>
-
     <!-- Bootstrap -->
     <link href="./vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./vendor/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./vendor/slick/slick-theme.css"/>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -16,43 +18,37 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
     <!-- Custom -->
     <link href="./css/styles.css" rel="stylesheet">
-  </head>
-  <body>
+</head>
+
+<body>
     <header>
-
     </header>
-    <main>
-        <div class="intro-body">
-            <div class="container">
-                    <div class="col-md-8">
-                        <h1 class="brand-heading">Pourriez-vous devenir français ?</h1>
-
-                        <p class="intro-text">Ils veulent pouvoir voter, accéder aux métiers de la fonction publique ou simplement se sentir mieux intégrés : chaque année, des dizaines de milliers d'étrangers vivant en France demandent la nationalité française. Ils doivent alors faire face aux méandres de l'administration française... </p>
-                        <p class="question-débutjeu">Et vous, pourriez-vous devenir français ? Choissisez votre personnage : </p>
-
-                        <a href="./aliona.html#intro" class="btn btn-default btn-lg">Aliona</a>
-                        <a href="./hajar.html" class="btn btn-default btn-lg">Hajar</a>
-                        <a href="./david.html" class="btn btn-default btn-lg">David</a>
-                        <a href="./djavad.html" class="btn btn-default btn-lg">Djavad</a>
-                        <a href="./akmel.html" class="btn btn-default btn-lg">Akmel</a>
-
-                    </div>
+    <main class="container">
+        <div class="col-sm-6">
+            <h1 class="brand-heading">Pourriez-vous devenir français ?</h1>
+            <p class="intro-text">Ils veulent pouvoir voter, accéder aux métiers de la fonction publique ou simplement se sentir mieux intégrés : chaque année, des dizaines de milliers d'étrangers vivant en France demandent la nationalité française. Ils doivent alors faire face aux méandres de l'administration française... </p>
+            <p class="question-débutjeu">Et vous, pourriez-vous devenir français ? Choissisez votre personnage : </p>
+            <div id="choix-personnage">
+                <a href="./aliona.html#intro" class="btn btn-default btn-lg">Aliona</a>
+                <a href="./hajar.html" class="btn btn-default btn-lg">Hajar</a>
+                <a href="./david.html" class="btn btn-default btn-lg">David</a>
+                <a href="./djavad.html" class="btn btn-default btn-lg">Djavad</a>
+                <a href="./akmel.html" class="btn btn-default btn-lg">Akmel</a>
             </div>
         </div>
-
+        <div class="col-sm-6" id="image-right"></div>
     </main>
     <footer>
-
     </footer>
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="./vendor/jquery/dist/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="./vendor/slick/slick.js"></script>
     <script src="./vendor/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- Custom -->
     <script src="./js/main.js"></script>
-  </body>
+</body>
+
 </html>
