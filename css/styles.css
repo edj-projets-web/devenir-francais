@@ -11,17 +11,10 @@
 	color: white;
 }
 
-
-#etape1-aliona {
-  display: none;
+section {
+	display: none;
 }
 
+section:target {
+	display: block;
 }
-#etape1-aliona:target {
-	display:block;
-}
-
-/*#etape2-aliona:target {
-	display:block;
-}
-*/
