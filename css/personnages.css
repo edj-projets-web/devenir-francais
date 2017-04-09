@@ -1,0 +1,19 @@
+section {
+	display: none;
+}
+
+section:target {
+	display: block;
+}
+
+.messenger {
+	border: 2px solid blue;
+	background-color: blue;
+	color: white;
+}
+
+.container {
+	background-color: #e1d5c9;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+}
