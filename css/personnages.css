@@ -6,14 +6,59 @@ section:target {
 	display: block;
 }
 
+
 .messenger {
-	border: 2px solid blue;
-	background-color: blue;
+	border: 10px solid #0084ff;
+	background-color: #0084ff;
 	color: white;
 }
 
 .container {
-	background-color: #e1d5c9;
+	/*background-color: #e1d5c9;*/
+	/*background-color: #0D419B;*/
 	font-family: 'Ubuntu', sans-serif;
-	font-size: 20px;
+	font-size: 16px;
+	color: white;
+	height: 100%;
+	width: 100%;
+	margin: auto;
+
+}
+
+.presentation-text {
+	padding: 10px;
+	margin: 70px auto;
+	background: rgba(255, 255, 255, 0.7);
+	color: black;
+}
+
+.encadre-text {
+	background: rgba(255, 255, 255, 0.7);
+	color: black;
+}
+
+.question-quiz {
+	background: rgba(255, 255, 255, 0.7);
+	color: black;
+	padding: 10px;
+}
+
+#etape5 .messenger
+{
+	border: 10px solid #0084ff;
+	background-color: #0084ff;
+	color: white;
+	margin: 100px 200px 200px 200px;
+	font-size: 30px;
+	padding: 10px;
+}
+
+.video-finale
+{
+	margin: auto; 
+	align-content: center;
+}
+
+body {
+	background-image: url("../images/fond-paris.jpg");
 }

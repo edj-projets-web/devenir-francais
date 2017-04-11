@@ -1,74 +1,56 @@
-.presentation-text {
-	border: 2px solid black;
-}
-
 .brand-heading {
-	position: relative;
-	top: 50px;
-	bottom: 50px;
-	left: 50px:
-	right 50px;
+	margin-top: 50px;
+	color: black;
+	text-align: center;
+	font-size: 50px;
+	background: rgba(255, 255, 255, 0.7);
 }
 
-.container {
-	background-color: #e1d5c9;
+body {
+	/*background-color: #e1d5c9;*/
 	font-family: 'Ubuntu', sans-serif;
+	background-image: url("../images/fond-paris.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	color: white;
+	font-size: 20px;
 }
 
 .intro-text {
-	border: 3px solid black;
-	padding: 50px 50px 50px 50px;
+	margin: 50px auto;
+	padding: 10px;
+	color: black;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.7);
+	max-width: 660px;
 }
 
 #choix-personnage {
-	height: 250px;
+	max-width:660px;
+	height: 350px;
+	margin: auto;
+	background: rgba(255, 255, 255, 0.7);
 	align-content: center;
+
 }
-#choix-personnage .flip-container .front {
+
+#choix-personnage .flipper {
+	display: flex;
+    flex-direction: row;
+    color: black;
+}
+
+#choix-personnage .flipper .front {
+	width:250px;
+	height:350px;
 	background-size: auto 100%;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
 
-/* entire container, keeps perspective */
-.flip-container {
-	perspective: 1000px;
-}
-	/* flip the pane when hovered */
-	.flip-container:hover .flipper, .flip-container.hover .flipper {
-		transform: rotateY(180deg);
-	}
 
-.flip-container, .front, .back {
-	width: 320px;
-	height: 480px;
-}
-
-/* flip speed goes here */
-.flipper {
-	transition: 0.6s;
-	transform-style: preserve-3d;
-
-	position: relative;
-}
-
-/* hide back of pane during swap */
-.front, .back {
-	backface-visibility: hidden;
-
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-/* front pane, placed above back */
-.front {
-	z-index: 2;
-	/* for firefox 31 */
-	transform: rotateY(0deg);
-}
-
-/* back, initially hidden pane */
-.back {
-	transform: rotateY(180deg);
+#choix-personnage .flip-container .back {
+	padding:10px;
 }
