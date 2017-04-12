@@ -27,6 +27,12 @@ body {
 	max-width: 660px;
 }
 
+.about 
+{
+	margin-top: 50px;
+	margin-left: 1000px;
+}
+
 #choix-personnage {
 	max-width:660px;
 	height: 350px;
@@ -49,7 +55,6 @@ body {
 	background-repeat: no-repeat;
 	background-position: center center;
 }
-
 
 #choix-personnage .flip-container .back {
 	padding:10px;

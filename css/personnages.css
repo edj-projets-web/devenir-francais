@@ -6,11 +6,27 @@ section:target {
 	display: block;
 }
 
+.messenger-left {
+	border: 10px solid #0084ff;
+	background-color: #0084ff;
+	color: white;
+	border-radius: 10px;
+	margin-right: 70px;
+}
+
+.messenger-right {
+	border: 10px solid #0084ff;
+	background-color: #0084ff;
+	color: white;
+	border-radius: 10px;
+	margin-left: 70px;
+}
 
 .messenger {
 	border: 10px solid #0084ff;
 	background-color: #0084ff;
 	color: white;
+	border-radius: 10px;
 }
 
 .container {
@@ -22,12 +38,18 @@ section:target {
 	height: 100%;
 	width: 100%;
 	margin: auto;
-
 }
 
 .presentation-text {
 	padding: 10px;
 	margin: 70px auto;
+	background: rgba(255, 255, 255, 0.7);
+	color: black;
+}
+
+#intro .presentation-text {
+	padding: 10px;
+	margin: 150px auto;
 	background: rgba(255, 255, 255, 0.7);
 	color: black;
 }
@@ -48,15 +70,31 @@ section:target {
 	border: 10px solid #0084ff;
 	background-color: #0084ff;
 	color: white;
-	margin: 100px 200px 200px 200px;
-	font-size: 30px;
+	margin: 100px 200px 100px 200px;
+	font-size: 20px;
 	padding: 10px;
+}
+
+#win .messenger
+{
+	margin: 200px 200px 200px 200px;
+}
+
+#win .btn {
+	margin-left: 200px;
+}
+
+.img-responsive {
+	margin-right: -30px;
+	border: 10px solid rgba(255, 255, 255, 0.7);
 }
 
 .video-finale
 {
-	margin: auto; 
-	align-content: center;
+	margin-left: 450px; 
+	margin-right: 600px;
+	margin-top: 0px;
+	margin-bottom: 40px;
 }
 
 body {
